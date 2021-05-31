@@ -20,7 +20,7 @@
   tasks:
   - name: clone repo
     git:
-      repo: 'https://github.com/brennv/flask-ansible-example.git'
+      repo: 'https://github.com/fguimara/flask-ansible-example.git'
       dest: /home/{{ ansible_ssh_user }}/{{ app_name }}
       update: yes  # Does a git pull if the repo already exists
   - name: Install virtualenv via pip
