@@ -1,6 +1,9 @@
 # flask-ansible-example
 
 This is an example Flask app, ready to be deployed with a simplified Ansible playbook.
+It is an edited version of the code available on
+https://github.com/brennv/flask-ansible-example
+
 
 The included deploy playbook will:
 - Install system apt packages
@@ -104,7 +107,3 @@ Check facts.
 ```
 ansible webservers -m setup
 ```
-
-## TODO
-
-Add [CI](https://www.jeffgeerling.com/blog/testing-ansible-roles-travis-ci-github)
